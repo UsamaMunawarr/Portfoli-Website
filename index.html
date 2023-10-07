@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script src="https://kit.fontawesome.com/8291ac0fe3.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -24,44 +25,57 @@
 						<p>🌟 A Statistician and Enthusiastic Data Sorcerer 🧙‍♂️</p>
 						<p>🔮 Google & IBM Certified Data Wizard | 💼 Exploring the Depths of Data Science</p>
 						<p>📈 Let's Connect: <a href="https://www.linkedin.com/in/abu--usama/">@Abu-Usama</a></p>
-
-						<ul class="actions">
+                        <ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
+					
 					</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">ABU USAMA</a>	
-					</header>
+			<!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">ABU USAMA</a>
+            </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home Page</a></li>
-							<li><a href="generic.html">Projects</a></li>
-							<li><a href="elements.html">Data Softweres</a></li>
-						</ul>
+        <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li class="active"><a href="index.html">Home Page</a></li>
+                    <li><a href="generic.html">Projects</a></li>
+                    <li><a href="elements.html">Data Softweres</a></li>
+                </ul>
+                    <ul class="icon">
+                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </nav>
 
-
-						<ul class="icons">
-							<li><a href="https://twitter.com/Usama__Munawar" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.youtube.com/@CodeBaseStats" class="icon brands alt fa-youtube"><span class="label">youtube</span></a></li>
-							<li><a href="https://www.linkedin.com/in/abu--usama/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/UsamaMunawarr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-
-
-
+                <style>
+               /* Style the icons container */
+              
 
 
 
+        /* Style the icon container */
+        .icon {
+        margin: 0;
+        display: flex;
+        gap: 20px;
+    }
 
+              
+               
+               
+               .icon {
+                        display: flex; /* Display icons in a row */
+                        list-style: none; /* Remove default list styles */
+                        padding: 0; /* Remove padding */
+                        gap: 10px; /* Add spacing between icons */
+                        align-items: center; /* Center vertically */
 
-
-
+                    }
+            </style>
 
 
 
@@ -104,13 +118,12 @@
     <!-- Centered Container for the Button -->
 	<div class="center-container">
 		<!-- Portfolio Button -->
-		<button id="about-button">
-			<span>👋</span> Click Me If You Want To Know About Myself <span>📖</span>
-		</button>
-	</div>
+<button id="about-button" style="margin-bottom: 20px;">
+    <span>👋</span> Learn About Me <span>📖</span>
+</button>
 
- <!-- Text Content (Initially Hidden) -->
- <div id="text-content" style="display: none;">
+<!-- Text Content (Initially Hidden) -->
+<div id="text-content" style="display: none; margin-bottom: 20px;">
 
 
 <style>
@@ -137,44 +150,64 @@
     background-color: #0056b3;
 }
 
+
+/* CSS */
+/* Styles for screens with a maximum width of 768 pixels (typical for mobile devices) */
+@media (max-width: 768px) {
+    .center-container {
+        text-align: center;
+    }
+
+    #about-button {
+        font-size: 16px; /* Adjust the font size as needed */
+        padding: 10px 20px; /* Adjust the padding as needed */
+    }
+
+    /* Optional: Center the button vertically on small screens */
+    #about-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Display the text content when the button is clicked on mobile */
+    #about-button:focus + #text-content {
+        display: block;
+    }
+}
 </style>
 
-<!-- Certificates -->
+<!-- Certificates Section -->
 <section class="certificates">
-    <h2>🏆 Certificates 📜</h2>
-    <ul>
+    <h2 class="section-title">🏆 Certificates 📜</h2>
+    <ul class="certificate-list">
         <li>📊 IBM Data Science Specialization</li>
         <li>🤖 DeepLearning.AI TensorFlow Developer Specialization</li>
-        <li>📈 Google Advanced Data Analytics Specialization</li>
-        <li>📉 Google Data Analytics Specialization</li>
-        <li>🐍 Applied Data Science with Python Specialization</li>
+        <li>📜 Google Certified Data Analyst</li>
+        <li>📜 Google Advanced Certified Data Analyst</li>
+        <li>📜 University of Michigan Certified in Data Science with Python</li>
+        <li>📜 University of John Hopkins Certified in JavaScript, HTML, CSS</li>
     </ul>
 </section>
 
-<!-- Education -->
+<!-- Education Section -->
 <section class="education">
-    <h2>🎓 Education 📚</h2>
-    <ul>
+    <h2 class="section-title">🎓 Education 📚</h2>
+    <ul class="education-list">
         <li>🏫 Matric: Allied School Grw Cantt Campus</li>
         <li>🏫 Intermediate: Aspire Group of Colleges</li>
         <li>
             🎓 B.S. in Statistics at the University of Gujrat
-            <ul>
+            <ul class="sub-list">
                 <li>🎓 Expected Graduation: [2024]</li>
-                <!--<li>🌟 Academic Achievements:</li>
-                <ul>-->
-                    <!--<li>🏆 [Any Academic Awards or Honors]</li>
-                    <li>📜 [Any Relevant Courses or Projects]</li>-->
-                </ul>
             </ul>
         </li>
     </ul>
 </section>
 
-<!-- Hobbies -->
+<!-- Hobbies Section -->
 <section class="hobbies">
-    <h2>🎯 Hobbies and Interests 🌟</h2>
-    <ul>
+    <h2 class="section-title">🎯 Hobbies and Interests 🌟</h2>
+    <ul class="hobby-list">
         <li>🏏 Playing Cricket</li>
         <li>💻 Coding</li>
         <li>📚 Book Collection</li>
@@ -183,19 +216,117 @@
     </ul>
 </section>
 
-<!-- Summary -->
+<!-- Summary Section -->
 <section class="summary">
-    <h2>🌟 Summary 🌟</h2>
-    <p>
+    <h2 class="section-title">🌟 Summary 🌟</h2>
+    <p class="summary-text">
         I am not just a data enthusiast; I'm a data virtuoso! 🚀 My journey through the world of data has been nothing short of thrilling. I've completed prestigious specializations in data science and am currently on the path to earning a B.S. in Statistics at the University of Gujrat.
-    <br>
+        <br>
         My toolkit is vast and powerful: I wield the magic of data preprocessing, craft data into captivating visual stories, weave statistical models that unravel insights, and orchestrate machine learning symphonies with TensorFlow. 🎩✨
-	<br>
+        <br>
         When it comes to data, I speak many languages: Python for data sorcery, SPSS for statistical wizardry, R for data alchemy, SQL for data governance, and Tableau for data artistry.
-	<br>
+        <br>
         Stay tuned to my social media channels for a front-row seat to my data adventures, where I'll be sharing insights, experiences, and tips. 📊📈💡📱
     </p>
 </section>
+
+
+
+
+
+<style>
+    /* Certificates Section */
+.certificates {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.certificate-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.certificate-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Education Section */
+.education {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.education-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.education-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.sub-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Hobbies Section */
+.hobbies {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.hobby-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hobby-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.summary-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
 
 
 	<!-- Add your HTML content here -->
@@ -278,12 +409,12 @@
 
 
 <style>
-	/* Footer Styles */
 .footer {
     background-color: #333;
     color: #fff;
     padding: 50px 0;
-    margin-top: 20px; /* Adjust margin to separate it from the content above */
+    margin-bottom: 20px;
+    /* Adjust margin to separate it from the content above */
 }
 
 .container {
@@ -326,6 +457,60 @@
 
 .icons.alt a:hover {
     color: #ff9900;
+}
+
+/* Responsive Footer Styles */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer h3 {
+        margin-top: 20px;
+    }
+
+    .contact-info section,
+    .social-media {
+        margin-bottom: 20px;
+    }
+
+    .contact-info h4,
+    .social-media h3 {
+        margin: 10px 0;
+    }
+}
+
+/* CSS */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer h3 {
+        margin-top: 20px;
+    }
+
+    .contact-info section,
+    .social-media {
+        margin-bottom: 20px;
+    }
+
+    .contact-info h4,
+    .social-media h3 {
+        margin: 10px 0;
+    }
 }
 
 </style>
