@@ -13,7 +13,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
@@ -23,8 +22,8 @@
 							I'm  Usama! 👨‍💼
 						</h1>
 						<p>🌟 A Statistician and Enthusiastic Data Sorcerer 🧙‍♂️</p>
-<p>🔮 Google & IBM Certified Data Wizard | 💼 Exploring the Depths of Data Science</p>
-<p>📈 Let's Connect: <a href="https://www.linkedin.com/in/abu--usama/">@Abu-Usama</a></p>
+						<p>🔮 Google & IBM Certified Data Wizard | 💼 Exploring the Depths of Data Science</p>
+						<p>📈 Let's Connect: <a href="https://www.linkedin.com/in/abu--usama/">@Abu-Usama</a></p>
 
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -41,6 +40,7 @@
 						<ul class="links">
 							<li class="active"><a href="index.html">Home Page</a></li>
 							<li><a href="generic.html">Projects</a></li>
+							<li><a href="elements.html">Data Softweres</a></li>
 						</ul>
 
 
@@ -70,14 +70,14 @@
 					<style>
 					/* CSS for Circular Profile Picture */
 					.profile-picture {
-    					width: 200px; /* Adjust the width to your preference */
-    					height: 200px; /* Adjust the height to your preference */
+    					width: 150px; /* Adjust the width to your preference */
+    					height: 150px; /* Adjust the height to your preference */
     					border-radius: 50%; /* Makes the image circular */
     					overflow: hidden; /* Hides any image overflow beyond the circle */
    						display: flex; /* Use flexbox for centering */
     					justify-content: center; /* Horizontally center */
-   						 align-items: center; /* Vertically center */
-   						 margin: 0 auto; /* Center horizontally within its parent container */
+   						align-items: center; /* Vertically center */
+   						margin: 0 auto; /* Center horizontally within its parent container */
 						}
 					</style>
 
@@ -94,9 +94,50 @@
 		</header>
 		<!-- Circular Profile Picture -->
 		<div class="profile-picture">
-			<img src="profile1.png" alt="Profile Picture" />
+			<img src="profile1-removebg-preview.png" alt="Profile Picture" />
 		</div>
-		<p>Hey There.</p>
+		
+
+
+
+
+    <!-- Centered Container for the Button -->
+	<div class="center-container">
+		<!-- Portfolio Button -->
+		<button id="about-button">
+			<span>👋</span> Click Me If You Want To Know About Myself <span>📖</span>
+		</button>
+	</div>
+
+ <!-- Text Content (Initially Hidden) -->
+ <div id="text-content" style="display: none;">
+
+
+<style>
+/* CSS for Portfolio Button */
+.center-container {
+        text-align: center;
+        margin: 0 auto;
+        display: table; /* Center horizontally */
+    }
+.profile-picture {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 20px; /* Add margin to separate from the button */
+		 
+}		
+
+.about-button:hover {
+    background-color: #0056b3;
+}
+
+</style>
 
 <!-- Certificates -->
 <section class="certificates">
@@ -114,7 +155,7 @@
 <section class="education">
     <h2>🎓 Education 📚</h2>
     <ul>
-        <li>🏫 Matric: Allied School</li>
+        <li>🏫 Matric: Allied School Grw Cantt Campus</li>
         <li>🏫 Intermediate: Aspire Group of Colleges</li>
         <li>
             🎓 B.S. in Statistics at the University of Gujrat
@@ -138,7 +179,7 @@
         <li>💻 Coding</li>
         <li>📚 Book Collection</li>
         <li>🎵 Listening to the Great Musician Ustad Nusrat Fateh Ali Khan</li>
-        <li>📺 Founder of CodeBaseStats YouTube Channel</li>
+        <li>📺 Founder of CodeBaseStats</li>
     </ul>
 </section>
 
@@ -147,14 +188,11 @@
     <h2>🌟 Summary 🌟</h2>
     <p>
         I am not just a data enthusiast; I'm a data virtuoso! 🚀 My journey through the world of data has been nothing short of thrilling. I've completed prestigious specializations in data science and am currently on the path to earning a B.S. in Statistics at the University of Gujrat.
-    </p>
-    <p>
+    <br>
         My toolkit is vast and powerful: I wield the magic of data preprocessing, craft data into captivating visual stories, weave statistical models that unravel insights, and orchestrate machine learning symphonies with TensorFlow. 🎩✨
-    </p>
-    <p>
+	<br>
         When it comes to data, I speak many languages: Python for data sorcery, SPSS for statistical wizardry, R for data alchemy, SQL for data governance, and Tableau for data artistry.
-    </p>
-    <p>
+	<br>
         Stay tuned to my social media channels for a front-row seat to my data adventures, where I'll be sharing insights, experiences, and tips. 📊📈💡📱
     </p>
 </section>
@@ -168,6 +206,17 @@
 
 
 
+<script>
+    // JavaScript to toggle the visibility of the text content
+    document.getElementById("about-button").addEventListener("click", function () {
+        var textContent = document.getElementById("text-content");
+        if (textContent.style.display === "none" || textContent.style.display === "") {
+            textContent.style.display = "block";
+        } else {
+            textContent.style.display = "none";
+        }
+    });
+</script>
 
 
 
@@ -178,65 +227,114 @@
 
 
 
-				<!-- Footer -->
-					<footer id="footer">
-					<!---
-						<section>
-							<form method="post" action="contact.php">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-						--->
 
 
-							<!---Adress-->	
-							<!--<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>-->
-							<section>
-								<h3>Phone</h3>
-								<p><a href="https://chat.whatsapp.com/HeoIe4zqOST7Br2u8gBAFU">Click Here</a></p>
-							</section>
 
-							<section style="justify-content: center;">
-								<h3>Email</h3>
-								<p style="justify-content: center">
-									<a href="mailto:usamamunawaar@gmail.com">
-										<i class="far fa-envelope"></i> usamamunawaar@gmail.com
-									</a>
-								</p>
-							</section>
 
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://twitter.com/Usama__Munawar" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.youtube.com/@CodeBaseStats" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
-									<li><a href="https://www.linkedin.com/in/abu--usama/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/UsamaMunawarr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>>
-						</section>
-					</footer>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+    <div class="container">
+
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <h3>Contact Information</h3>
+            <!-- Phone -->
+            <section>
+                <h4>Phone</h4>
+                <p><a href="https://chat.whatsapp.com/HeoIe4zqOST7Br2u8gBAFU" class="contact-link">Click Here</a></p>
+            </section>
+            <!-- Email -->
+            <section>
+                <h4>Email</h4>
+                <p>
+                    <a href="mailto:usamamunawaar@gmail.com" class="contact-link">
+                        <i class="far fa-envelope"></i> usamamunawaar@gmail.com
+                    </a>
+                </p>
+            </section>
+        </section>
+
+        <!-- Social Media Links -->
+        <section class="social-media">
+            <h3>Connect with Me</h3>
+            <ul class="icons">
+                <li><a href="https://twitter.com/Usama__Munawar" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.youtube.com/@CodeBaseStats" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+                <li><a href="https://www.linkedin.com/in/abu--usama/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/UsamaMunawarr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+
+
+
+<style>
+	/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 20px; /* Adjust margin to separate it from the content above */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-info,
+.social-media {
+    width: 50%;
+    float: left;
+}
+
+.contact-info h3,
+.social-media h3 {
+    color: #ff9900;
+    font-size: 24px;
+}
+
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #ff9900;
+}
+
+.icons.alt li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.icons.alt a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.icons.alt a:hover {
+    color: #ff9900;
+}
+
+</style>
+
+
+
+
+
+
 
 				<!-- Copyright -->
 					<div id="copyright">
@@ -253,6 +351,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
