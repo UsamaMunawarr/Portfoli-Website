@@ -539,11 +539,11 @@
                   </h1>
 
                   <p className="text-[1rem] lg:text-[1.25rem] text-brand-muted mb-8 max-w-[540px] mx-auto lg:mx-0 leading-[1.6]">
-                    MPhil Researcher translating complex pure statistics into production-ready Machine Learning models. I teach what gets deployed to production.
+                    AI/ML Engineer with a foundation in Statistics, building and sharing real-world machine learning systems across healthcare, analytics, and intelligent applications.
                   </p>
 
                   <div className="text-[0.875rem] text-brand-muted/70 mb-8 font-mono">
-                    6,700+ YouTube Subs <span className="text-brand-accent1 mx-2">•</span> 30+ Architectures <span className="text-brand-accent1 mx-2">•</span> MPhil Researcher
+                    4+ Years Experience <span className="text-brand-accent1 mx-2">•</span> 30+ Projects Delivered <span className="text-brand-accent1 mx-2">•</span> 60+ Students Mentored
                   </div>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -591,7 +591,7 @@
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent rounded-xl pointer-events-none"></div>
                       <div className="absolute bottom-6 left-6 right-6 bg-black/40 backdrop-blur-md px-4 py-3 rounded-lg border border-brand-accent1/20 text-center shadow-[0_0_20px_rgba(212,175,55,0.15)] group-hover:border-brand-accent1/50 transition-colors duration-500">
                         <div className="text-xs font-mono text-brand-accent1 tracking-widest font-bold mb-1">ABU USAMA</div>
-                        <div className="text-[10px] text-white/60 tracking-wider">MPHIL RESEARCHER</div>
+                        <div className="text-[10px] text-white/60 tracking-wider">AI/ML ENGINEER</div>
                       </div>
                     </TiltCard>
                   </div>
@@ -725,7 +725,21 @@
             {/* TOOLS SECTION */}
             {activeHash === '#tools' && (
               <div className="animate-in py-16">
-                <SectionHeader title1="Data" title2="Softwares" subtitle="Your complete toolkit. Click any software to officially download it." />
+                {/* <SectionHeader title1="Data" title2="Softwares" subtitle="Your complete toolkit. Click any software to officially download it." /> */}
+                <SectionHeader
+                  title1="Data"
+                  title2="Softwares"
+                  subtitle={
+                    <>
+                      Your complete toolkit. Click any software to officially download it.{" "}
+                      <br />
+                      <span className="text-sm text-brand-muted">
+                        Note: ZIP file password is{" "}
+                        <span className="text-white font-semibold">123</span>
+                      </span>
+                    </>
+                  }
+                />
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {toolsData.map((tool, idx) => (
@@ -757,8 +771,8 @@
             {activeHash === '#about' && (
               <div className="animate-in py-16">
                 <div className="text-center mb-16">
-                  <h1 className="font-display text-[3rem] font-bold text-white">About <span className="text-brand-accent1">Abu</span> <span className="text-white font-normal">Usama</span></h1>
-                  <p className="text-[1.25rem] text-brand-muted mt-4">Bridging pure Statistics with modern Enterprise AI</p>
+                  <h1 className="font-display text-[3rem] font-bold text-white">About <span className="text-brand-accent1">Me</span> {/*<span className="text-white font-normal">Usama</span>*/}</h1>
+                  <p className="text-[1.25rem] text-brand-muted mt-4">Bridging Statistical Science with Modern Artificial Intelligence</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
@@ -770,19 +784,21 @@
                   </div>
 
                   <div className="lg:col-span-7 flex flex-col">
-                    <h2 className="text-[2rem] font-bold text-white mb-6">I Build AI That Ships</h2>
+                    <h2 className="text-[2rem] font-bold text-white mb-6">From Statistics to Intelligent Systems</h2>
 
-                    <p className="text-[1.125rem] text-brand-muted/90 leading-[1.8] mb-6">
-                      Starting my journey with a BS in Statistics at UOG, I quickly realized the power of data. I expanded my skillset into Machine Learning and Deep Learning, blending traditional statistical rigor with modern AI techniques. Currently pursuing my MPhil in Statistics, my research focuses on CAD Mortality Prediction using advanced ML models.
+                    <p className="text-[1.125rem] text-brand-muted/90 leading-[1.8] mb-6 text-justify">
+                      I am a Statistician, Data Scientist, and AI/ML Engineer with a strong foundation in data-driven problem solving. My work focuses on building intelligent systems using machine learning, deep learning, and advanced analytics. With experience across predictive modeling, computer vision, NLP, and data visualization, I have developed multiple real-world projects ranging from healthcare applications to recommendation systems and interactive dashboards.
                     </p>
 
-                    <p className="text-[1.125rem] text-brand-muted/90 leading-[1.8] mb-8">
-                      I created this portfolio and my YouTube masterclasses to share the patterns that actually work. No fluff. No toy demos. Just battle-tested approaches that get deployed to real enterprise environments.
+                    <p className="text-[1.125rem] text-brand-muted/90 leading-[1.8] mb-8 text-justify">
+                      Alongside practical development, I am actively engaged in research, applying advanced statistical and machine learning techniques to solve real-world problems—particularly in healthcare analytics. I combine statistical thinking with modern AI tools to turn complex data into practical, deployable solutions.
                     </p>
 
                     <div className="flex flex-wrap gap-4 mb-16">
-                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">MPhil Researcher</span>
-                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">Statistics Dept</span>
+                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">Researcher</span>
+                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">Statistician</span>
+                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">Data Scientist</span>
+                      <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">AI/ML Engineer</span>
                       <span className="bg-brand-accent1/10 border border-brand-accent1/30 text-brand-accent1 text-[0.75rem] font-medium px-4 py-2 rounded-md uppercase tracking-[0.05em]">LLM Engineer</span>
                     </div>
                   </div>
